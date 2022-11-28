@@ -7,4 +7,11 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  const image = document.querySelector(".image");
+
+  image.addEventListener('click', () => {
+    image.style.transform = "scale(2)";
+  });
+  
 });
